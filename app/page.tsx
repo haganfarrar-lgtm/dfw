@@ -11,38 +11,38 @@ import { generateFAQSchema, generateWebPageSchema, businessInfo } from '@/lib/se
 
 // Enhanced metadata for homepage
 export const metadata: Metadata = {
-  title: '#1 Landscaping Company in Mansfield, TX | Professional Landscapers',
-  description: `Mansfield's premier landscaping company with 15+ years experience. Expert hardscaping, landscape design, paver installation, sod, irrigation, tree planting & more. ⭐ 5-Star Rated | 1000+ Projects. Serving Mansfield, Arlington, Grand Prairie, Burleson & DFW. Call ${businessInfo.phone} for FREE estimate!`,
+  title: '#1 Landscaping Company in DFW Metroplex | Professional Landscapers',
+  description: `DFW's premier landscaping company with 15+ years experience. Expert hardscaping, landscape design, paver installation, sod, irrigation, tree planting & more. ⭐ 5-Star Rated | 1000+ Projects. Serving Fort Worth, Dallas, Arlington, Mansfield & all DFW. Call ${businessInfo.phone} for FREE estimate!`,
   keywords: [
-    'landscaping Mansfield TX',
-    'Mansfield landscaping company',
-    'landscaper in Mansfield',
-    'Mansfield landscaper',
-    'hardscaping Mansfield',
-    'landscape design Mansfield TX',
-    'paver installation Mansfield',
-    'best landscaper Mansfield',
-    'landscaping near me Mansfield',
-    'lawn care Mansfield TX',
-    'outdoor living Mansfield',
-    'sod installation Mansfield',
-    'tree planting Mansfield TX',
-    'irrigation Mansfield',
-    'retaining walls Mansfield',
+    'landscaping DFW',
+    'Dallas landscaping company',
+    'Fort Worth landscaper',
+    'landscaper in DFW',
+    'hardscaping Dallas Fort Worth',
+    'landscape design DFW',
+    'paver installation Dallas',
+    'best landscaper Fort Worth',
+    'landscaping near me',
+    'lawn care DFW',
+    'outdoor living Dallas',
+    'sod installation Fort Worth',
+    'tree planting DFW',
+    'irrigation Dallas',
+    'retaining walls Fort Worth',
     'Arlington landscaping',
-    'Burleson landscaping',
-    'Grand Prairie landscaping',
+    'Plano landscaping',
+    'Frisco landscaping',
   ].join(', '),
   openGraph: {
-    title: 'Mansfield Landscaping | #1 Rated Landscaping Company in Mansfield, TX',
-    description: 'Transform your outdoor space with Mansfield\'s top-rated landscaping company. 15+ years experience, 1000+ projects completed. Free estimates!',
+    title: 'DFW Landscaping Pros | #1 Rated Landscaping Company in Dallas-Fort Worth',
+    description: 'Transform your outdoor space with DFW\'s top-rated landscaping company. 15+ years experience, 1000+ projects completed. Free estimates!',
     url: businessInfo.url,
     images: [
       {
         url: '/images/services/hardscaping/DSC04265-2048x1152-1.jpg',
         width: 1200,
         height: 630,
-        alt: 'Mansfield Landscaping Professional Hardscaping',
+        alt: 'DFW Landscaping Professional Hardscaping',
       },
     ],
   },
@@ -54,16 +54,16 @@ export const metadata: Metadata = {
 // Comprehensive FAQ for SEO
 const faqs = [
   {
-    question: 'What landscaping services do you offer in Mansfield?',
-    answer: 'We offer comprehensive landscaping services including landscape design, hardscaping, paver installation, sod installation, tree planting, mulching, irrigation systems, outdoor lighting, retaining walls, French drains, and seasonal maintenance. We are a full-service Mansfield landscaping company.'
+    question: 'What landscaping services do you offer in DFW?',
+    answer: 'We offer comprehensive landscaping services including landscape design, hardscaping, paver installation, sod installation, tree planting, mulching, irrigation systems, outdoor lighting, retaining walls, French drains, and seasonal maintenance. We are a full-service DFW landscaping company.'
   },
   {
-    question: 'What areas do you serve near Mansfield, TX?',
-    answer: 'We proudly serve Mansfield, Arlington, Grand Prairie, Burleson, Midlothian, Cedar Hill, DeSoto, Duncanville, Fort Worth, Dallas, and surrounding DFW communities within 50 miles of Mansfield.'
+    question: 'What areas do you serve in the DFW Metroplex?',
+    answer: 'We proudly serve the entire Dallas-Fort Worth Metroplex, including Dallas, Fort Worth, Arlington, Plano, Irving, Garland, Grand Prairie, McKinney, Frisco, Mansfield, Southlake, Colleyville, Grapevine, and all surrounding communities.'
   },
   {
     question: 'Do you offer free landscaping estimates?',
-    answer: 'Yes! We provide free, no-obligation estimates for all landscaping and hardscaping projects. Contact us to schedule a consultation with our Mansfield landscaping experts.'
+    answer: 'Yes! We provide free, no-obligation estimates for all landscaping and hardscaping projects. Contact us to schedule a consultation with our DFW landscaping experts.'
   },
   {
     question: 'How long does a typical landscaping project take?',
@@ -71,19 +71,19 @@ const faqs = [
   },
   {
     question: 'Are you a licensed and insured landscaping company?',
-    answer: 'Yes, Mansfield Landscaping is fully licensed and insured. We carry comprehensive liability insurance and workers\' compensation to protect your property and our team.'
+    answer: 'Yes, DFW Landscaping Pros is fully licensed and insured. We carry comprehensive liability insurance and workers\' compensation to protect your property and our team.'
   },
   {
     question: 'Do you offer warranties on landscaping work?',
     answer: 'Yes, we provide warranties on both materials and labor. Plant materials come with a 1-year warranty, and hardscaping work is backed by our workmanship guarantee. We stand behind our work.'
   },
   {
-    question: 'What makes Mansfield Landscaping different from other landscapers?',
-    answer: 'With 15+ years of experience, 1000+ completed projects, and a 5-star rating, we combine expertise with exceptional customer service. Our team consists of trained professionals who treat your property like their own. We are locally owned and operated in Mansfield.'
+    question: 'What makes DFW Landscaping Pros different from other landscapers?',
+    answer: 'With 15+ years of experience, 1000+ completed projects, and a 5-star rating, we combine expertise with exceptional customer service. Our team consists of trained professionals who treat your property like their own. We are locally owned and operated in the DFW area.'
   },
   {
     question: 'How do I get started with a landscaping project?',
-    answer: 'Getting started is easy! Call us at (682) 397-8603 or fill out our online contact form. We\'ll schedule a free on-site consultation to discuss your vision, provide recommendations, and deliver a detailed estimate.'
+    answer: `Getting started is easy! Call us at ${businessInfo.phone} or fill out our online contact form. We'll schedule a free on-site consultation to discuss your vision, provide recommendations, and deliver a detailed estimate.`
   },
   {
     question: 'What is the best time of year for landscaping in Texas?',
@@ -97,7 +97,7 @@ const faqs = [
 
 export default function Home() {
   const webPageSchema = generateWebPageSchema({
-    title: 'Mansfield Landscaping - Premier Landscaping Services in Mansfield, TX',
+    title: 'DFW Landscaping Pros - Premier Landscaping Services in Dallas-Fort Worth',
     description: businessInfo.description,
     url: '/',
   });
