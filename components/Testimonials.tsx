@@ -3,10 +3,10 @@ import { useState } from 'react';
 import { Star, Quote, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
-  { name: 'Sarah Mitchell', location: 'Mansfield, TX', rating: 5, text: 'Absolutely transformed our backyard! The paver patio exceeded our expectations.', project: 'Paver Patio' },
-  { name: 'Michael Thompson', location: 'Arlington, TX', rating: 5, text: 'Complete landscape renovation. The results are stunning and our property value increased.', project: 'Landscape Design' },
-  { name: 'Jennifer Rodriguez', location: 'Grand Prairie, TX', rating: 5, text: 'Best landscaping company in the area! Great communication and fair pricing.', project: 'Irrigation' },
-  { name: 'David Chen', location: 'Burleson, TX', rating: 5, text: 'The outdoor fireplace is the centerpiece of our backyard. Quality workmanship.', project: 'Outdoor Fireplace' },
+  { name: 'Sarah Mitchell', location: 'Southlake, TX', rating: 5, text: 'Absolutely transformed our backyard! The paver patio exceeded our expectations.', project: 'Paver Patio' },
+  { name: 'Michael Thompson', location: 'Colleyville, TX', rating: 5, text: 'Complete landscape renovation. The results are stunning and our property value increased.', project: 'Landscape Design' },
+  { name: 'Jennifer Rodriguez', location: 'Grapevine, TX', rating: 5, text: 'Best landscaping company in the area! Great communication and fair pricing.', project: 'Irrigation' },
+  { name: 'David Chen', location: 'Dallas, TX', rating: 5, text: 'The outdoor fireplace is the centerpiece of our backyard. Quality workmanship.', project: 'Outdoor Fireplace' },
 ];
 
 export default function Testimonials() {

@@ -10,7 +10,7 @@ interface HeroProps {
   backgroundImage?: string;
 }
 
-export default function Hero({ title, subtitle, cityName = 'Mansfield', serviceName, backgroundImage }: HeroProps) {
+export default function Hero({ title, subtitle, cityName = 'DFW', serviceName, backgroundImage }: HeroProps) {
   const defaultTitle = serviceName 
     ? `Professional ${serviceName} in ${cityName}`
     : `Architectural Landscape Design in ${cityName}`;
@@ -56,7 +56,7 @@ export default function Hero({ title, subtitle, cityName = 'Mansfield', serviceN
               <p className="text-xs uppercase tracking-wider text-stone-500 font-bold">Years Exp.</p>
             </div>
             <div>
-              <p className="font-display text-3xl font-bold text-forest-900 mb-1">500+</p>
+              <p className="font-display text-3xl font-bold text-forest-900 mb-1">1500+</p>
               <p className="text-xs uppercase tracking-wider text-stone-500 font-bold">Projects</p>
             </div>
             <div>

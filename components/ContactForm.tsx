@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 
 interface ContactFormProps { cityName?: string; serviceName?: string; }
 
-export default function ContactForm({ cityName = 'Mansfield' }: ContactFormProps) {
+export default function ContactForm({ cityName = 'DFW' }: ContactFormProps) {
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://link.msgsndr.com/js/form_embed.js';
@@ -42,7 +42,7 @@ export default function ContactForm({ cityName = 'Mansfield' }: ContactFormProps
             <div className="bg-stone-50 rounded-2xl p-6 border border-stone-200">
               <div className="grid grid-cols-2 gap-4 text-center">
                 <div className="p-4"><p className="font-display text-2xl font-bold text-forest-700">15+</p><p className="text-sm text-stone-600">Years</p></div>
-                <div className="p-4"><p className="font-display text-2xl font-bold text-forest-700">500+</p><p className="text-sm text-stone-600">Clients</p></div>
+                <div className="p-4"><p className="font-display text-2xl font-bold text-forest-700">1500+</p><p className="text-sm text-stone-600">Clients</p></div>
                 <div className="p-4"><p className="font-display text-2xl font-bold text-forest-700">5.0</p><p className="text-sm text-stone-600">Rating</p></div>
                 <div className="p-4"><p className="font-display text-2xl font-bold text-forest-700">100%</p><p className="text-sm text-stone-600">Satisfaction</p></div>
               </div>

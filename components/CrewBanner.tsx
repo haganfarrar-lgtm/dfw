@@ -17,7 +17,7 @@ export default function CrewBanner({ variant = 'compact' }: CrewBannerProps) {
                 Meet Your Local Landscaping Team
               </h2>
               <p className="text-forest-200 text-lg mb-6">
-                Our experienced crew has been serving Mansfield and the DFW area for over 15 years. 
+                Our experienced crew has been serving Colleyville, Southlake, Grapevine, and the DFW area for over 15 years. 
                 We take pride in every project and treat your property like our own.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -33,14 +33,14 @@ export default function CrewBanner({ variant = 'compact' }: CrewBannerProps) {
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 <img 
                   src="/images/services/hardscaping/DSC04265-2048x1152-1.jpg" 
-                  alt="Mansfield Landscaping hardscaping project"
+                  alt="DFW Landscaping hardscaping project"
                   className="w-full h-64 object-cover"
                 />
               </div>
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 <img 
                   src="/images/services/pavers/images.jpeg" 
-                  alt="Mansfield Landscaping paver installation"
+                  alt="DFW Landscaping paver installation"
                   className="w-full h-64 object-cover"
                 />
               </div>
@@ -74,7 +74,7 @@ export default function CrewBanner({ variant = 'compact' }: CrewBannerProps) {
               </div>
             </div>
             <div>
-              <p className="font-semibold text-forest-900">Your Local Mansfield Team</p>
+              <p className="font-semibold text-forest-900">Your Local DFW Team</p>
               <p className="text-stone-600 text-sm">15+ Years Experience • 1000+ Projects</p>
             </div>
           </div>

@@ -12,12 +12,12 @@ export default function Footer() {
       <div className="relative h-64 overflow-hidden">
         <img 
           src="/images/services/hardscaping/DSC04265-2048x1152-1.jpg" 
-          alt="Mansfield Landscaping - Beautiful Hardscaping"
+          alt="DFW Landscaping - Beautiful Hardscaping"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-forest-950/50 to-forest-950" />
         <div className="absolute bottom-6 left-0 right-0 text-center">
-          <p className="text-white text-xl font-semibold">Trusted by Mansfield Homeowners</p>
+          <p className="text-white text-xl font-semibold">Trusted by DFW Homeowners</p>
         </div>
       </div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
             <div className="mb-6">
               <Logo className="h-14" darkMode />
             </div>
-            <p className="text-stone-400 mb-6">Premier landscaping and hardscaping services in Mansfield, Texas and surrounding communities.</p>
+            <p className="text-stone-400 mb-6">Premier landscaping and hardscaping services in Dallas-Fort Worth and surrounding communities.</p>
             <div className="flex items-center gap-2 mb-4">
               {[...Array(5)].map((_, i) => <Star key={i} size={18} className="fill-amber-400 text-amber-400" />)}
               <span className="text-stone-400 text-sm ml-2">5.0 Rating</span>
@@ -55,7 +55,7 @@ export default function Footer() {
             <h4 className="font-display text-lg font-semibold mb-6">Our Services</h4>
             <ul className="space-y-3">
               {services.slice(0, 10).map((service) => (
-                <li key={service.slug}><Link href={`/cities/mansfield/services/${service.slug}`} className="text-stone-400 hover:text-white text-sm transition-colors">{service.name}</Link></li>
+                <li key={service.slug}><Link href={`/cities/southlake/services/${service.slug}`} className="text-stone-400 hover:text-white text-sm transition-colors">{service.name}</Link></li>
               ))}
             </ul>
           </div>

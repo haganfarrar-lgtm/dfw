@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 export const businessInfo = {
   name: 'DFW Landscaping Pros',
   legalName: 'DFW Landscaping Pros LLC',
-  phone: '(682) 397-8603',
+  phone: '(682) 799-8082',
   email: 'info@dfwlandscaper.com',
   url: 'https://dfwlandscaper.com',
   address: {

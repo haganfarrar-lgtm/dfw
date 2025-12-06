@@ -4,7 +4,7 @@ import { businessInfo } from '@/lib/seo';
 
 interface CTASectionProps { title?: string; subtitle?: string; cityName?: string; }
 
-export default function CTASection({ title = "Ready to Transform Your Outdoor Space?", subtitle = "Get a free consultation and estimate for your landscaping project.", cityName = "Mansfield" }: CTASectionProps) {
+export default function CTASection({ title = "Ready to Transform Your Outdoor Space?", subtitle = "Get a free consultation and estimate for your landscaping project.", cityName = "DFW" }: CTASectionProps) {
   return (
     <section className="relative py-20 overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center bg-fixed" style={{ backgroundImage: 'url(/images/services/hardscaping/DSC04265-2048x1152-1.jpg)' }}>

@@ -15,11 +15,11 @@ export default function Team() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="text-forest-600 font-semibold uppercase tracking-wider text-sm">Meet Our Team</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-forest-950 mt-3 mb-6">
-            The Mansfield Landscaping Crew
+            The DFW Landscaping Pros Crew
           </h2>
           <p className="text-lg text-stone-600">
             Our experienced team of landscaping professionals brings dedication, skill, and attention to detail to every project. 
-            We take pride in transforming outdoor spaces across Mansfield and the DFW area.
+            We take pride in transforming outdoor spaces across Colleyville, Southlake, Grapevine, and the entire DFW area.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ export default function Team() {
           <div className="relative group overflow-hidden rounded-2xl shadow-xl">
             <img
               src="/images/services/hardscaping/DSC04265-2048x1152-1.jpg"
-              alt="Mansfield Landscaping hardscaping project"
+              alt="DFW Landscaping hardscaping project"
               className="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-forest-950/70 via-transparent to-transparent" />
@@ -56,13 +56,13 @@ export default function Team() {
           <div className="relative group overflow-hidden rounded-2xl shadow-xl">
             <img
               src="/images/services/pavers/images.jpeg"
-              alt="Mansfield Landscaping paver installation"
+              alt="DFW Landscaping paver installation"
               className="w-full h-[500px] object-cover transition-transform duration-500 group-hover:scale-105"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-forest-950/70 via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6">
               <p className="text-white text-xl font-semibold">Expert Installation</p>
-              <p className="text-forest-200">Experienced professionals serving Mansfield</p>
+              <p className="text-forest-200">Experienced professionals serving DFW</p>
             </div>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Team() {
                 Why Choose Our Team?
               </h3>
               <p className="text-forest-200 mb-6">
-                Every member of the Mansfield Landscaping crew is trained, experienced, and committed to excellence. 
+                Every member of the DFW Landscaping Pros crew is trained, experienced, and committed to excellence. 
                 We treat your property like our own, ensuring every detail is perfect.
               </p>
               <ul className="space-y-3">
@@ -109,14 +109,14 @@ export default function Team() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span>Local Mansfield area experts</span>
+                  <span>Local DFW area experts</span>
                 </li>
               </ul>
             </div>
             <div className="relative">
               <img 
                 src="/images/services/landscape-design/images.jpeg"
-                alt="Mansfield Landscaping work"
+                alt="DFW Landscaping work"
                 className="rounded-xl shadow-2xl"
               />
               <div className="absolute -bottom-4 -right-4 bg-forest-600 text-white px-6 py-3 rounded-lg shadow-lg">

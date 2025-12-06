@@ -41,6 +41,20 @@ export default function Header() {
 
   return (
     <header className="bg-white text-forest-900 sticky top-0 z-50 border-b border-stone-200">
+      {/* Top Bar */}
+      <div className="bg-forest-50 py-2 hidden md:block border-b border-forest-100">
+        <div className="container-custom flex justify-between items-center text-xs font-medium uppercase tracking-widest text-forest-700">
+          <div className="flex items-center gap-6">
+            <span>Serving the Entire DFW Metroplex</span>
+            <span className="text-forest-300">|</span>
+            <span>{businessInfo.hours.weekday}</span>
+          </div>
+          <a href={`tel:${businessInfo.phone}`} className="hover:text-forest-900 transition-colors">
+            Free Estimates • Licensed & Insured
+          </a>
+        </div>
+      </div>
+
       <nav className="container-custom py-5">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center group">
@@ -63,7 +77,7 @@ export default function Header() {
                         <ul className="space-y-3">
                           {getServicesByCategory(cat.category).slice(0, 6).map((service) => (
                             <li key={service.slug}>
-                              <Link href={`/cities/mansfield/services/${service.slug}`} className="text-sm font-medium text-stone-600 hover:text-forest-900 hover:translate-x-1 block transition-all">{service.name}</Link>
+                              <Link href={`/cities/dallas/services/${service.slug}`} className="text-sm font-medium text-stone-600 hover:text-forest-900 hover:translate-x-1 block transition-all">{service.name}</Link>
                             </li>
                           ))}
                         </ul>
@@ -87,6 +101,9 @@ export default function Header() {
                         <Link key={city.slug} href={`/cities/${city.slug}`} className="text-sm font-medium text-stone-600 hover:text-forest-900 hover:translate-x-1 block transition-all">{city.name}</Link>
                       ))}
                     </div>
+                    <div className="mt-4 pt-4 border-t border-earth-100 text-center">
+                      <Link href="/cities/dallas" className="text-xs font-bold uppercase tracking-widest text-earth-600 hover:text-earth-700">View All Service Areas →</Link>
+                    </div>
                   </div>
                 </div>
               )}
@@ -106,7 +123,7 @@ export default function Header() {
           <div className="lg:hidden mt-4 pb-4 border-t border-stone-200 pt-4 animate-fade-in">
             <div className="flex flex-col gap-4">
               <Link href="/" className="py-2 font-bold uppercase tracking-widest hover:text-earth-600">Home</Link>
-              <Link href="/cities/mansfield" className="py-2 font-bold uppercase tracking-widest hover:text-earth-600">Services</Link>
+              <Link href="/cities/dallas" className="py-2 font-bold uppercase tracking-widest hover:text-earth-600">Services</Link>
               <Link href="/blog" className="py-2 font-bold uppercase tracking-widest hover:text-earth-600">Journal</Link>
               <a href={`tel:${businessInfo.phone}`} className="btn-primary text-center">Call {businessInfo.phone}</a>
             </div>

@@ -7,14 +7,14 @@ interface FAQItem { question: string; answer: string; }
 interface FAQProps { cityName?: string; faqs?: FAQItem[]; }
 
 const defaultFaqs: FAQItem[] = [
-  { question: 'What areas do you serve?', answer: 'We serve Mansfield, Arlington, Grand Prairie, Burleson, Midlothian, Cedar Hill, and other cities within 50 miles.' },
+  { question: 'What areas do you serve?', answer: 'We specialize in serving Colleyville, Southlake, Grapevine, Mansfield, Dallas, and Fort Worth. We also cover the entire surrounding DFW Metroplex.' },
   { question: 'Do you offer free estimates?', answer: 'Yes! We provide free, no-obligation estimates for all projects.' },
   { question: 'How long does a typical project take?', answer: 'Timelines vary by scope. Simple projects take 1-2 days, larger renovations 2-4 weeks.' },
   { question: 'Are you licensed and insured?', answer: 'Yes, we are fully licensed and carry comprehensive liability insurance.' },
   { question: 'Do you offer warranties?', answer: 'Yes, we offer warranties on materials and labor for all our work.' },
 ];
 
-export default function FAQ({ cityName = 'Mansfield', faqs = defaultFaqs }: FAQProps) {
+export default function FAQ({ cityName = 'DFW', faqs = defaultFaqs }: FAQProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (

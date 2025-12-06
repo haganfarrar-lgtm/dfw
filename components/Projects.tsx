@@ -3,15 +3,15 @@ import { useState } from 'react';
 import { ArrowRight, MapPin } from 'lucide-react';
 
 const projects = [
-  { title: 'Modern Patio Design', location: 'Mansfield, TX', category: 'Hardscaping', image: '/images/services/hardscaping/DSC04265-2048x1152-1.jpg' },
-  { title: 'Complete Landscape Renovation', location: 'Arlington, TX', category: 'Landscaping', image: '/images/services/landscape-design/images.jpeg' },
-  { title: 'Paver Patio Installation', location: 'Grand Prairie, TX', category: 'Hardscaping', image: '/images/services/pavers/images.jpeg' },
-  { title: 'Flagstone Pathway', location: 'Burleson, TX', category: 'Hardscaping', image: '/images/services/flagstone/images.jpeg' },
-  { title: 'Outdoor Lighting', location: 'Midlothian, TX', category: 'Outdoor Living', image: '/images/services/outdoor-lighting/images.jpeg' },
-  { title: 'Sod Installation', location: 'Cedar Hill, TX', category: 'Landscaping', image: '/images/services/sod-installation/images.jpeg' },
+  { title: 'Modern Patio Design', location: 'Colleyville, TX', category: 'Hardscaping', image: '/images/services/hardscaping/DSC04265-2048x1152-1.jpg' },
+  { title: 'Complete Landscape Renovation', location: 'Southlake, TX', category: 'Landscaping', image: '/images/services/landscape-design/images.jpeg' },
+  { title: 'Paver Patio Installation', location: 'Grapevine, TX', category: 'Hardscaping', image: '/images/services/pavers/images.jpeg' },
+  { title: 'Flagstone Pathway', location: 'Dallas, TX', category: 'Hardscaping', image: '/images/services/flagstone/images.jpeg' },
+  { title: 'Outdoor Lighting', location: 'Fort Worth, TX', category: 'Outdoor Living', image: '/images/services/outdoor-lighting/images.jpeg' },
+  { title: 'Sod Installation', location: 'Arlington, TX', category: 'Landscaping', image: '/images/services/sod-installation/images.jpeg' },
   { title: 'Retaining Wall', location: 'Mansfield, TX', category: 'Hardscaping', image: '/images/services/retaining-walls/images.jpeg' },
-  { title: 'French Drain System', location: 'Arlington, TX', category: 'Custom Design', image: '/images/services/french-drain/Unknown.jpeg' },
-  { title: 'Mulch & Flower Beds', location: 'Grand Prairie, TX', category: 'Landscaping', image: '/images/services/mulch/images.jpeg' },
+  { title: 'French Drain System', location: 'Frisco, TX', category: 'Custom Design', image: '/images/services/french-drain/Unknown.jpeg' },
+  { title: 'Mulch & Flower Beds', location: 'Plano, TX', category: 'Landscaping', image: '/images/services/mulch/images.jpeg' },
 ];
 
 const categories = ['All', 'Landscaping', 'Hardscaping', 'Custom Design', 'Outdoor Living'];
@@ -26,7 +26,7 @@ export default function Projects() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <span className="text-forest-600 font-semibold uppercase tracking-wider text-sm">Our Work</span>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-forest-950 mt-3 mb-6">Featured Projects</h2>
-          <p className="text-lg text-stone-600">Browse our recent landscaping and hardscaping projects in Mansfield and surrounding areas.</p>
+          <p className="text-lg text-stone-600">Browse our recent landscaping and hardscaping projects in Colleyville, Southlake, Grapevine, and surrounding DFW areas.</p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12">

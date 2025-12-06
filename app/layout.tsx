@@ -16,10 +16,10 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: `${businessInfo.name} | #1 Landscaping Company in Mansfield, TX`,
+    default: `${businessInfo.name} | Premier Landscaping Services in DFW Metroplex`,
     template: `%s | ${businessInfo.name}`,
   },
-  description: 'Mansfield\'s premier landscaping company. Professional hardscaping, landscape design, paver installation, irrigation, tree planting, sod installation & more. Serving Mansfield, Arlington, Grand Prairie, Burleson & DFW. ⭐ 5-Star Rated. Call (682) 397-8603 for free estimate!',
+  description: 'DFW\'s premier landscaping company. Professional hardscaping, landscape design, paver installation, irrigation, tree planting, sod installation & more. Serving Fort Worth, Dallas, Arlington, Plano & surrounding areas. ⭐ 5-Star Rated. Call (682) 799-8082 for free estimate!',
   keywords: businessInfo.keywords.join(', '),
   authors: [{ name: businessInfo.name, url: businessInfo.url }],
   creator: businessInfo.name,
@@ -38,25 +38,25 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: businessInfo.url,
     siteName: businessInfo.name,
-    title: `${businessInfo.name} | #1 Landscaping Company in Mansfield, TX`,
-    description: 'Transform your outdoor space with Mansfield\'s top-rated landscaping company. Expert hardscaping, landscape design, pavers, irrigation & more. Free estimates!',
+    title: `${businessInfo.name} | Premier Landscaping Services in DFW Metroplex`,
+    description: 'Transform your outdoor space with DFW\'s top-rated landscaping company. Expert hardscaping, landscape design, pavers, irrigation & more. Free estimates!',
     images: [
       {
         url: '/images/services/hardscaping/DSC04265-2048x1152-1.jpg',
         width: 1200,
         height: 630,
-        alt: 'Mansfield Landscaping - Professional Hardscaping Services',
+        alt: 'DFW Landscaping Pros - Professional Hardscaping Services',
         type: 'image/jpeg',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${businessInfo.name} | #1 Landscaping in Mansfield, TX`,
-    description: 'Transform your outdoor space with Mansfield\'s top-rated landscaping company. Free estimates! Call (682) 397-8603',
+    title: `${businessInfo.name} | Premier Landscaping Services in DFW Metroplex`,
+    description: 'Transform your outdoor space with DFW\'s top-rated landscaping company. Free estimates! Call (682) 799-8082',
     images: ['/images/services/hardscaping/DSC04265-2048x1152-1.jpg'],
-    creator: '@MansfieldLandscape',
-    site: '@MansfieldLandscape',
+    creator: '@DFWLandscaping',
+    site: '@DFWLandscaping',
   },
   robots: {
     index: true,
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
   referrer: 'origin-when-cross-origin',
   other: {
     'geo.region': 'US-TX',
-    'geo.placename': 'Mansfield',
+        'geo.placename': 'Dallas-Fort Worth',
     'geo.position': `${businessInfo.geo.latitude};${businessInfo.geo.longitude}`,
     'ICBM': `${businessInfo.geo.latitude}, ${businessInfo.geo.longitude}`,
     'rating': 'General',
